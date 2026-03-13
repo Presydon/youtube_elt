@@ -15,10 +15,10 @@ jobs:
         runs-on: ubuntu-latest 
         steps: 
             - name: Checkout code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
             - name: Get changed files
               id: changed-files-build
-              uses: tj-actions/changed-files@v45
+              uses: tj-actions/changed-files@v47
               with:
                 files: |
                     Dockerfile
