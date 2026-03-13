@@ -1,4 +1,3 @@
 requests
-python-dotenv
 soda-core-postgres==3.3.14
 pytest==8.4
